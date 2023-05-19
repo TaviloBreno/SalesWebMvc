@@ -4,14 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SalesWebMvc.Data;
 using SalesWebMvc.Models;
 
 namespace SalesWebMvc.Migrations
 {
     [DbContext(typeof(SalesWebMvcContext))]
-    [Migration("20230519045703_DepartmentForeingkey")]
-    partial class DepartmentForeingkey
+    [Migration("20230519170720_OtherEntities")]
+    partial class OtherEntities
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
